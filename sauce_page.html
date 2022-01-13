@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Navbar | CodingNepal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" 
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"><span>B</span>BM 38</label>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="#">Parametre</a></li>
+        <li><a href="#">Restaurant</a></li>
+        <li><a href="#">A propos</a></li>
+      </ul>
+    </nav>
+
+    <section id="sauce_page" class="box"> 
+
+      <div class="ligne_1" id="plat">
+        <label class="plat">Nombre de plateau :</label>
+        <label class="btn_plat" id="btn_plat_0">0</label>
+        <label class="btn_plat" id="btn_plat_1">1</label>
+      </div>
+
+      <div class="ligne_2" id="caisse">
+        <label class="caisse">Nombre de caisse &nbsp :</label>
+        <label class="btn_caisse" id="btn_caisse_0">0</label>
+        <label class="btn_caisse" id="btn_caisse_1">1</label>
+        <label class="btn_caisse" id="btn_caisse_2">2</label>
+        <label class="btn_caisse" id="btn_caisse_3">3</label>
+      </div>
+
+      <div class="ligne_3" id="bac">
+        <label class="bac">Nombre de bac &nbsp &nbsp &nbsp:</label>
+        <input type="number" min="0" placeholder="Chiffre" class="nb_bac" id="chiffre_bac"></input>
+      </div>
+
+      <div class="ligne_4" id="sauce_poid3">
+        <label class="sauce_poid3">Poids de 3 sauces &nbsp :</label>
+        <input type="number" min="0" placeholder="Chiffre" class="poids_sauce_chiffre" id="chiffre_p_sauce"></input>
+      </div>
+
+      <div class="ligne_5" id="poids_total">
+        <label class="poids_total">Poids Total &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp :</label>
+        <input type="number" placeholder="Chiffre" class="poids_total_btn" id="chiffre_p_toto" min="0"></input>
+      </div>
+
+      <div class="ligne_6">
+        <button id="btn_calcul">Calculer</button>
+      </div>
+
+      <div class="ligne_7" id="Nb_sauce">
+        <label class="Nb_sauce">Nombre de sauces :</label>
+      </div>
+
+      <div class="ligne_8" >
+        <label class="Nb_sauce_final" id="Nb_sauce_result">0</label>
+      </div>
+    
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
