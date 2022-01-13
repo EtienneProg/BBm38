@@ -141,7 +141,7 @@ var btn_desactive = function(b){
 }
 
 //calcul sauce
-var poids_plateau = 126;
+var poids_plateau = 390;
 var poids_caisse = 1175;
 var poids_bac = 26;
 
