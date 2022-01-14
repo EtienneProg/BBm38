@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BBM 38 by Etienne</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.bra-tendances-restauration.com/wp-content/uploads/sites/3/2017/05/brut_butcher_logo.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"><span>B</span>BM 38</label>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="#">Parametre</a></li>
+        <li><a href="#">Restaurant</a></li>
+        <li><a href="#">A propos</a></li>
+      </ul>
+    </nav>
+
+    <section class="boisson_page">
+      <h1>Choisir la boisson :</h1>
+      <div class="grille" id="pourquoipas">
+
+        <div class="grid-item" id="b1"><img  src="icon/coca-logo.png"/></div>
+        <div class="grid-item" id="b2"><img src="icon/logo-coca-zero.png"/></div>
+        <div class="grid-item" id="b3"><img src="icon/fuzetea-logo.png"/></div>
+        <div class="grid-item" id="b4"><img src="icon/sprite-logo.png"/></div>
+        <div class="grid-item" id="b5"><img src="icon/fanta-logo.png"/></div>
+        <div class="grid-item" id="b6"><img src="icon/tropico-logo.png"/></div>
+
+      </div>
+
+      <div>
+        <h1>Poids du Bib :</h1>
+        <input type="number" min="0" placeholder="Poids au g" class="poids_bib" id="poids_bib"></input>
+      </div>
+
+      <div><button id="calcul_bib">Calculer</button></div>
+
+      <div>
+        <h2>Resultat Bib :</h1>
+        <label id="result_bib">0</label>
+      </div>
+
+    </section>
+
+    <script src="js/boisson.js"></script>
+
+  </body>
+</html>

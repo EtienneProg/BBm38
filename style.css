@@ -1,0 +1,572 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+}
+body{
+  background: url(icon/mur.jpg);
+  background-size: cover;
+}
+nav{
+  background: #000;
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+label.logo span{
+  color: #c59d5f;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+  nav a:hover{
+  background: #c59d5f;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+#accueil_page {
+  margin-top: 60px;
+  text-align: center;
+}
+
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.box{
+  font-size: 32px;
+  margin: 128px auto;
+  width: 800px;
+  padding: 15px;
+}
+
+.app {
+  
+  width: 190px;
+  height: 190px;
+  margin: 15px;
+  display: inline-block;
+}
+
+.app img {
+  width: 100%;
+}
+
+
+
+.plat{
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn_plat{
+  
+  position: relative;
+  left: 50px;
+  cursor: pointer;
+  text-align: center;
+  padding: 7px 30px;
+  font-size: 20px;
+  text-shadow: 0 -2px 1px #a88652;
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  border-top: 5px solid #e0b574;
+  border-left: 5px solid #a78553;
+  width: 100px;
+  background: linear-gradient(#c59d5f 0%, #ad8a54 100%);
+  box-shadow: 0 2px 6px rgda(0, 0, 0, .8);  
+}
+
+.ligne_2{
+  margin-top: 20px;
+}
+
+.caisse{
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn_caisse{
+  
+  position: relative;
+  left: 50px;
+  cursor: pointer;
+  text-align: center;
+  padding: 7px 30px;
+  font-size: 20px;
+  text-shadow: 0 -2px 1px #a88652;
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  border-top: 5px solid #e0b574;
+  border-left: 5px solid #a78553;
+  width: 100px;
+  background: linear-gradient(#c59d5f 0%, #ad8a54 100%);
+  box-shadow: 0 2px 6px rgda(0, 0, 0, .8);  
+}
+
+.ligne_3{
+  margin-top: 20px;
+}
+
+.bac{
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nb_bac{
+
+  position: relative;
+  left: 50px;
+  cursor: pointer;
+  padding: 7px 30px;
+  text-align: center;
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  display: inline;
+  border: 2px solid #c59d5f;
+  width: 130px;
+  background: linear-gradient(#fff 0%, #FFF 100%);
+  box-shadow: 0 2px 6px rgda(0, 0, 0, .8);  
+
+}
+
+.ligne_4{
+  margin-top: 20px;
+}
+
+.sauce_poid3{
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.poids_sauce_chiffre{
+
+  position: relative;
+  left: 50px;
+  cursor: pointer;
+  padding: 7px 30px;
+  text-align: center;
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  display: inline;
+  border: 2px solid #c59d5f;
+  width: 130px;
+  background: linear-gradient(#fff 0%, #FFF 100%);
+  box-shadow: 0 2px 6px rgda(0, 0, 0, .8);  
+
+}
+
+.ligne_5{
+  margin-top: 20px;
+}
+
+.poids_total{
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.poids_total_btn{
+
+  position: relative;
+  left: 50px;
+  cursor: pointer;
+  padding: 7px 30px;
+  text-align: center;
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  display: inline;
+  border: 2px solid #c59d5f;
+  width: 130px;
+  background: linear-gradient(#fff 0%, #FFF 100%);
+  box-shadow: 0 2px 6px rgda(0, 0, 0, .8);  
+
+}
+
+.ligne_6{
+  margin-top: 40px;
+  text-align: center;
+}
+
+#btn_calcul{
+cursor:pointer;
+width: 200px;
+font-size: 20px;
+padding: 8px;
+color: white;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border: 3px solid #c59d5f;
+background-color: rgb(0,0,0,.5);
+transition: 0.5s;
+}
+
+#btn_calcul:hover{
+background-color: rgba(255, 255, 255, 0.5);
+color: black;
+transition: 0.5s;
+}
+
+.ligne_7{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.ligne_8{
+  margin-top: 5px;
+  text-align: center;
+}
+
+.Nb_sauce{
+  color: #fff;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 45px;
+}
+
+.Nb_sauce_final{
+  
+  color:#c59d5f;
+  font-size: 45px;
+}
+
+
+
+/***********************************************************************
+/*boisson page*/
+.boisson_page{
+  text-align: center;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px 0;
+  
+}
+
+.boisson_page h1{
+  color: #FFF;
+}
+
+.boisson_page h2{
+  margin-top: 50px;
+  color: #c59d5f;
+}
+
+.grille{
+  max-width: 1100px;
+  width: 80%;
+  height: auto;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 170px);
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.grid-item{
+  cursor: pointer;
+  width: 170px;
+  height: 170px;
+  background: rgba(255, 255, 255, 0.5);
+  display: block;
+  margin-top: auto;
+  border-radius:30% ;
+  border: 1px solid #c59d5f;
+  box-shadow: 0px 0px 20px #c59d5f;
+}
+
+.grid-item:hover{
+  width: 90%;
+  height: 90%;
+}
+
+.grid-item img{
+  background-size: cover;
+  width: 100%; 
+  padding: 15px;
+  
+}
+
+.poids_bib{
+  position: relative;
+  cursor: pointer;
+  padding: 7px 30px;
+  text-align: center;
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  display: inline;
+  border: 2px solid #c59d5f;
+  min-width: 200px;
+  width: 20%;
+  background: linear-gradient(#fff 0%, #FFF 100%);
+  box-shadow: 0 2px 6px rgda(0, 0, 0, .8);
+}
+
+#calcul_bib{
+  cursor:pointer;
+  width: 200px;
+  font-size: 20px;
+  padding: 8px;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 3px solid #c59d5f;
+  background-color: rgb(0,0,0,.5);
+  transition: 0.5s;
+}
+
+#calcul_bib:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  transition: 0.5s;
+}
+
+#result_bib{
+  color: white;
+}
+
+
+@media (max-width: 1340px){ 
+  .grid-item{
+    width: 110px;
+    height: 110px;
+  }
+
+  .grille{ 
+    max-width: 720px;
+    grid-template-columns: repeat(auto-fill, 110px);    
+    gap: 10px;
+  }
+
+  .boisson_page h1{
+    font-size: 80%;
+  }
+
+  .boisson_page h2{
+    font-size: 95%;
+  }
+
+  .grid-item img{
+    background-size: cover;
+    width: 100%; 
+    padding: 5%;
+    
+  }
+  
+}
+
+
+
+
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+
+  .grid-item{
+    width: 80px;
+    height: 80px;
+  }
+
+  .grille{ 
+    max-width: 560px;
+    grid-template-columns: repeat(auto-fill, 80px);    
+    gap: 15px;
+  }
+  
+}
+
+
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgb(0,0,0,.5);
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  nav a:hover,a.active{
+    background: none;
+    color: #c59d5f;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+  
+  .container{
+    width: 100%;
+  
+  }
+
+  .box{
+    margin-top: 10%;
+    font-size: 100%;
+    width: auto;
+
+  }
+
+  .btn_caisse{
+    font-size: 15px;
+    width: 15%;
+    padding: 3%;
+    left: 5%;
+  }
+
+  .btn_plat{
+    font-size: 15px;
+    width: 15%;
+    padding: 3%;
+    left: 5%;
+  }
+
+  .nb_bac{
+    left: 5%;
+  }
+
+  .poids_sauce_chiffre{
+    left: 5%;
+  }
+
+  .poids_total_btn{
+    left: 5%;
+  }
+
+  
+}
+
+@media (max-width: 700px){ 
+  .grid-item{
+    width: 60px;
+    height: 60px;
+  }
+
+  .grille{ 
+    max-width: 440px;
+    grid-template-columns: repeat(auto-fill, 60px);    
+    gap: 10px;
+  }
+
+  .boisson_page h1{
+    font-size: 80%;
+  }
+
+  .boisson_page h2{
+    font-size: 95%;
+  }
+  
+}
+
+@media (max-width: 520px){ 
+
+  .boisson_page{
+    margin-top: 20px;
+  }
+
+  .grid-item{
+    width: 50px;
+    height: 50px;
+  }
+
+  .grille{ 
+    margin-top: 10px;
+    max-width: 350px;
+    grid-template-columns: repeat(auto-fill, 50px);    
+    gap: 7px;
+  }
+
+  
+}
+
+@media (max-width: 425px){ 
+  .grid-item{
+    width: 40px;
+    height: 40px;
+  }
+
+  .grille{ 
+    margin-top: 10px;
+    max-width: 300px;
+    grid-template-columns: repeat(auto-fill, 40px);    
+    gap: 7px;
+  }
+
+  
+}
+
+
+
+@media (max-width: 550px){
+  .app{width: 50%;}
+  .app{margin: 4%;}
+
+  .btn_caisse{
+    font-size: 10px;
+    width: 10%;
+   
+  }
+
+  .btn_plat{
+    font-size: 10px;
+    width: 10%;
+    
+  }
+}
+
+
