@@ -172,15 +172,6 @@ btn_cal.onclick = function(){
 }
 
 
-//**************************** */
-
-
-var btn_boisson = d.getElementById("b1");
-
-btn_boisson.onClick = () =>
-
-  alert("enfin putain");
-
 
 
 
